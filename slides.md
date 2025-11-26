@@ -1,6 +1,6 @@
 ---
-marp: true            # ✅ Required directive to enable Marp
-theme: default        # ✅ Use built-in theme (or "custom" if you add your own CSS)
+marp: true            # ✅ Required directive
+theme: default        # ✅ Built-in theme (you can change to "custom")
 paginate: true        # ✅ Adds page numbers
 footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
@@ -24,7 +24,6 @@ Version-controlled & easily convertible to PDF, PPTX, HTML
 
 # 📧 Contact
 
-For queries, reach out:  
 **25ds1000231@ds.study.iitm.ac.in**
 
 ---
@@ -40,13 +39,9 @@ This slide demonstrates a **full background image** with Marp.
 
 # ⚙️ Algorithmic Complexity
 
-Consider an algorithm with complexity:
-
 \[
 T(n) = O(n \cdot \log n)
 \]
-
-This is typical for **sorting algorithms** like mergesort or heapsort.
 
 ---
 
@@ -57,14 +52,11 @@ h2 {
   color: #d6336c;
   font-style: italic;
 }
-ul > li {
-  margin: 0.2em 0;
-}
 </style>
 
 ## Styled Heading
 
-This heading uses **scoped custom styling**.
+Scoped styling applied to this slide.
 
 ---
 
