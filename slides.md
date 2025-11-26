@@ -2,11 +2,10 @@
 marp: true
 theme: product-docs
 paginate: true
-_paginate: true
 footer: "Product Docs | Email: 25ds1000231@ds.study.iitm.ac.in | Page ${page} / ${pages}"
 title: "Product Documentation – Nimbus Core"
 author: "Bipul Lahiri"
-description: "Architecture, API, overview and complexity analysis"
+description: "Architecture, API overview and complexity analysis"
 ---
 
 <style>
@@ -25,7 +24,6 @@ pre {
   background: rgba(15, 23, 42, 0.98);
   padding: 1rem;
   border-radius: .5rem;
-  font-size: .85rem;
 }
 
 .badge {
@@ -33,11 +31,8 @@ pre {
   padding: 0.2em 0.8em;
   border-radius: 99px;
   font-size: 0.7em;
-  text-transform: uppercase;
 }
 </style>
-
-<!-- _class: lead -->
 
 # Nimbus Core  
 Product Documentation
@@ -49,32 +44,25 @@ Product Documentation
 ## Contact
 
 **Author:** Bipul Lahiri  
-**Email:** 25ds1000231@ds.study.iitm.ac.in  
-
-Documentation goals:
-
-- Versioned in Git
-- Developer-friendly and maintainable
-- Auto-exportable to HTML/PDF/PPTX
-- Centralized product truth
+**Email:** 25ds1000231@ds.study.iitm.ac.in
 
 ---
 
-<!-- BACKGROUND IMAGE SLIDE -->
-<!-- _backgroundImage: url('https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1600') -->
+<!-- THIS IS THE REQUIRED BACKGROUND IMAGE SLIDE -->
+<!-- _backgroundImage: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg") -->
 <!-- _backgroundSize: cover -->
-<!-- _backgroundColor: rgba(0,0,0,0.55) -->
+<!-- _backgroundColor: rgba(0,0,0,0.6) -->
 
-# System Overview
+# Platform Overview
 
-- API Gateway  
-- Orchestration Service  
-- Worker nodes  
-- Event & metrics pipeline  
+- API Gateway
+- Orchestration Service
+- Background workers
+- Metrics and logging
 
 ---
 
-## High-Level Architecture
+## Architecture
 
 ```mermaid
 graph TD
