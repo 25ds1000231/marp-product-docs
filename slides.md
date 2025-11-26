@@ -1,7 +1,7 @@
 ---
-marp: true            # ✅ Required directive
-theme: default        # ✅ Built-in theme (you can change to "custom")
-paginate: true        # ✅ Adds page numbers
+marp: true
+theme: default
+paginate: true
 footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
 
@@ -28,7 +28,7 @@ Version-controlled & easily convertible to PDF, PPTX, HTML
 
 ---
 
-<!-- Slide with background image -->
+<!-- BACKGROUND IMAGE SLIDE -->
 ![bg](assets/background.jpg)
 
 # 🌍 Background Image Example
