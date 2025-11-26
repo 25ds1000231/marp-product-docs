@@ -5,6 +5,8 @@ paginate: true
 footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
 
+<!-- theme: default -->
+
 # 📘 Product Documentation
 
 Maintained with **Marp**  
@@ -12,6 +14,7 @@ Version-controlled & easily convertible to PDF, PPTX, HTML
 
 ---
 
+<!-- theme: default -->
 # ✨ Features
 
 - Markdown-based documentation  
@@ -22,12 +25,14 @@ Version-controlled & easily convertible to PDF, PPTX, HTML
 
 ---
 
+<!-- theme: default -->
 # 📧 Contact
 
 **25ds1000231@ds.study.iitm.ac.in**
 
 ---
 
+<!-- theme: default -->
 <!-- BACKGROUND IMAGE SLIDE -->
 ![bg](assets/background.jpg)
 
@@ -37,6 +42,7 @@ This slide demonstrates a **full background image** with Marp.
 
 ---
 
+<!-- theme: default -->
 # ⚙️ Algorithmic Complexity
 
 \[
@@ -45,6 +51,7 @@ T(n) = O(n \cdot \log n)
 
 ---
 
+<!-- theme: default -->
 # 🎨 Custom Styling Example
 
 <style scoped>
@@ -60,6 +67,7 @@ Scoped styling applied to this slide.
 
 ---
 
+<!-- theme: default -->
 # ✅ Summary
 
 - Documentation in Markdown  
