@@ -168,6 +168,18 @@ and its integration points.
 <div>
 
 ```mermaid
+---
+
+<!-- _backgroundImage: url('https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1600') -->
+<!-- _backgroundSize: cover -->
+<!-- _backgroundColor: rgba(0,0,0,0.6) -->
+
+# System Overview (Visual)
+
+- High-level view of the platform
+- Key data flows and integration points
+- Used in onboarding and architecture reviews
+
 graph TD
   A[Client] --> B[API Gateway]
   B --> C[Orchestrator]
