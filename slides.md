@@ -1,7 +1,7 @@
 ---
-marp: true
-theme: custom
-paginate: true
+marp: true            # ✅ Required directive to enable Marp
+theme: custom         # ✅ Custom theme directive
+paginate: true        # ✅ Adds page numbers
 footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
 
