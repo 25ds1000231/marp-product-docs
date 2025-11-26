@@ -1,59 +1,93 @@
 ---
 marp: true
-theme: product-docs
+theme: custom
 paginate: true
-footer: "Email: 25ds1000231@ds.study.iitm.ac.in | Page ${page} / ${pages}"
-title: "Product Documentation – Nimbus Core"
-author: "Bipul Lahiri"
-description: "Architecture, API overview and complexity analysis"
+footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
 
+<!-- Custom theme definition -->
 <style>
-/* @theme product-docs */
 section {
-  background: radial-gradient(circle at top left, #1e293b 0, #020617 45%, #000 100%);
-  color: #e5e7eb;
-  font-family: system-ui, sans-serif;
+  font-family: "Segoe UI", sans-serif;
+  color: #222;
 }
-h1,h2,h3 { color: #fbbf24; }
-pre {
-  background: rgba(15, 23, 42, 0.98);
-  padding: 1rem;
-  border-radius: 6px;
+h1 {
+  color: #0055aa;
+  text-align: center;
+}
+footer {
+  font-size: 0.8em;
+  color: #666;
 }
 </style>
 
-# Nimbus Core  
-Product Documentation
+# 📘 Product Documentation
+
+Maintained with **Marp**  
+Version-controlled & easily convertible to PDF, PPTX, HTML
 
 ---
 
-## Contact
+# ✨ Features
 
-**Author:** Bipul Lahiri**  
-**Email:** 25ds1000231@ds.study.iitm.ac.in**
-
----
-
-<!-- backgroundImage: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg") -->
-<!-- backgroundSize: cover -->
-<!-- backgroundColor: rgba(0, 0, 0, 0.5) -->
-
-# Platform Architecture
-
-- API Gateway  
-- Orchestration engine  
-- Workers  
-- Metrics and logs  
+- Markdown-based documentation  
+- Custom themes and styling  
+- Page numbers for navigation  
+- Background images for emphasis  
+- Math equations for complexity analysis  
 
 ---
 
-## Architecture Diagram
+# 📧 Contact
 
-```mermaid
-graph TD
-  A[Client] --> B[API Gateway]
-  B --> C[Orchestrator]
-  C --> D[Workers]
-  C --> E[(Doc Store)]
-  C --> F[(Metrics DB)]
+For queries, reach out:  
+**25ds1000231@ds.study.iitm.ac.in**
+
+---
+
+<!-- Slide with background image -->
+![bg](assets/background.jpg)
+
+# 🌍 Background Image Example
+
+This slide demonstrates a **full background image** with Marp.
+
+---
+
+# ⚙️ Algorithmic Complexity
+
+Consider an algorithm with complexity:
+
+\[
+T(n) = O(n \cdot \log n)
+\]
+
+This is typical for **sorting algorithms** like mergesort or heapsort.
+
+---
+
+# 🎨 Custom Styling Example
+
+<style scoped>
+h2 {
+  color: #d6336c;
+  font-style: italic;
+}
+ul > li {
+  margin: 0.2em 0;
+}
+</style>
+
+## Styled Heading
+
+This heading uses **scoped custom styling**.
+
+---
+
+# ✅ Summary
+
+- Documentation in Markdown  
+- Custom theme & styling  
+- Background image support  
+- Math equations included  
+- Ready for version control
