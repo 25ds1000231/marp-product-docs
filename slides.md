@@ -5,7 +5,7 @@ paginate: true
 footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
 
 # 📘 Product Documentation
 
@@ -14,25 +14,25 @@ Version-controlled & easily convertible to PDF, PPTX, HTML
 
 ---
 
-<!-- backgroundImage: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg") -->
-<!-- backgroundSize: cover -->
-<!-- backgroundColor: rgba(0, 0, 0, 0.5) -->
+<!-- _backgroundImage: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg") -->
+<!-- _backgroundSize: cover -->
+<!-- _backgroundColor: rgba(0,0,0,0.5) -->
 
 # 🌍 Background Image Slide
 
 ---
 
-<!-- paginate: false -->
+<!-- _paginate: false -->
 
 # ⚙️ Algorithmic Complexity
 
 \[
-T(n) = O(n \cdot \log n)
+T(n) = O(n \log n)
 \]
 
 ---
 
-<!-- class: note -->
+<!-- _class: note -->
 
 # 🎨 Custom Styling Example
 
@@ -43,7 +43,7 @@ h2 {
 }
 </style>
 
-## Styled Heading
+## Styled Heading Example
 
 ---
 
