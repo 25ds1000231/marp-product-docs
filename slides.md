@@ -5,7 +5,7 @@ paginate: true
 footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
 
-<!-- theme: default -->
+<!-- class: lead -->
 
 # 📘 Product Documentation
 
@@ -14,35 +14,16 @@ Version-controlled & easily convertible to PDF, PPTX, HTML
 
 ---
 
-<!-- theme: default -->
-# ✨ Features
+<!-- backgroundImage: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg") -->
+<!-- backgroundSize: cover -->
+<!-- backgroundColor: rgba(0, 0, 0, 0.5) -->
 
-- Markdown-based documentation  
-- Custom themes and styling  
-- Page numbers for navigation  
-- Background images for emphasis  
-- Math equations for complexity analysis  
+# 🌍 Background Image Slide
 
 ---
 
-<!-- theme: default -->
-# 📧 Contact
+<!-- paginate: false -->
 
-**25ds1000231@ds.study.iitm.ac.in**
-
----
-
-<!-- theme: default -->
-<!-- BACKGROUND IMAGE SLIDE -->
-![bg](assets/background.jpg)
-
-# 🌍 Background Image Example
-
-This slide demonstrates a **full background image** with Marp.
-
----
-
-<!-- theme: default -->
 # ⚙️ Algorithmic Complexity
 
 \[
@@ -51,7 +32,8 @@ T(n) = O(n \cdot \log n)
 
 ---
 
-<!-- theme: default -->
+<!-- class: note -->
+
 # 🎨 Custom Styling Example
 
 <style scoped>
@@ -63,15 +45,8 @@ h2 {
 
 ## Styled Heading
 
-Scoped styling applied to this slide.
-
 ---
 
-<!-- theme: default -->
-# ✅ Summary
+# 📧 Contact
 
-- Documentation in Markdown  
-- Custom theme & styling  
-- Background image support  
-- Math equations included  
-- Ready for version control
+Email: **25ds1000231@ds.study.iitm.ac.in**
