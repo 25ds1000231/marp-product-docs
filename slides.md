@@ -1,25 +1,9 @@
 ---
 marp: true            # ✅ Required directive to enable Marp
-theme: custom         # ✅ Custom theme directive
+theme: default        # ✅ Use built-in theme (or "custom" if you add your own CSS)
 paginate: true        # ✅ Adds page numbers
 footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
 ---
-
-<!-- Custom theme definition -->
-<style>
-section {
-  font-family: "Segoe UI", sans-serif;
-  color: #222;
-}
-h1 {
-  color: #0055aa;
-  text-align: center;
-}
-footer {
-  font-size: 0.8em;
-  color: #666;
-}
-</style>
 
 # 📘 Product Documentation
 
