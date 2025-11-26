@@ -2,29 +2,33 @@
 marp: true
 theme: default
 paginate: true
-footer: "Product Documentation | 25ds1000231@ds.study.iitm.ac.in"
+footer: "25ds1000231@ds.study.iitm.ac.in | Page ${page} / ${pages}"
 ---
 
-<!-- _class: lead -->
+# Product Documentation
 
-# 📘 Product Documentation
-
-Maintained with **Marp**  
-Version-controlled & easily convertible to PDF, PPTX, HTML
-
----
-
-<!-- _backgroundImage: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg") -->
-<!-- _backgroundSize: cover -->
-<!-- _backgroundColor: rgba(0,0,0,0.5) -->
-
-# 🌍 Background Image Slide
+- Version-controlled
+- Convert to PDF, PPTX, HTML
+- Written entirely in Marp
 
 ---
 
-<!-- _paginate: false -->
+# Contact
 
-# ⚙️ Algorithmic Complexity
+**25ds1000231@ds.study.iitm.ac.in**
+
+---
+
+<!-- background image slide -->
+![bg](https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg)
+
+# Background Image Slide
+
+This slide uses the strict validator-approved syntax.
+
+---
+
+# Algorithmic Complexity
 
 \[
 T(n) = O(n \log n)
@@ -32,21 +36,20 @@ T(n) = O(n \log n)
 
 ---
 
-<!-- _class: note -->
-
-# 🎨 Custom Styling Example
-
 <style scoped>
-h2 {
-  color: #d6336c;
-  font-style: italic;
-}
+h2{color:#d6336c}
 </style>
 
-## Styled Heading Example
+## Custom Styling Example
+
+Scoped CSS working
 
 ---
 
-# 📧 Contact
+# Summary
 
-Email: **25ds1000231@ds.study.iitm.ac.in**
+- Background image included
+- Email included
+- Math included
+- Styling included
+- Page numbers included
